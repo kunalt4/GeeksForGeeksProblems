@@ -1,2 +1,2 @@
-# GeeksForGeeksProblems
-Problems solved on GeeksForGeeks
+# ProblemSolvingDSandAlgo
+Problems solved on GeeksForGeeks, LeetCode and HackerRank
