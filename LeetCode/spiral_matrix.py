@@ -5,7 +5,6 @@ class Solution:
             return []
         n = len(matrix[0])
         res = []
-        poprev = False
         while (len(res)!=m*n):
             res.extend(matrix.pop(0))
             if(len(res)==m*n):
