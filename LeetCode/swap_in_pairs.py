@@ -28,10 +28,7 @@ class Solution:
             if first:
                 second = first.next
                 
-            if oh.next:
-                if not second:
-                    oh.next
-                else:
+            if oh.next and second:
                     oh.next = oh.next.next
                     oh = first
         return head
