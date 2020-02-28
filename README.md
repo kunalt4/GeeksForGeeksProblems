@@ -1,3 +1,3 @@
-<b> ProblemSolvingDSandAlgo <b>
+# ProblemSolvingDSandAlgo
   
 Problems solved on GeeksForGeeks, LeetCode and HackerRank.
