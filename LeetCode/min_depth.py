@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+#Iterative BFS
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         
@@ -25,5 +26,27 @@ class Solution:
                 
             if node.right:
                 que.append((node.right, height+1))
+                
+                
+
+#Recursive DFS         
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def minDepth(self, node: TreeNode) -> int:
+        
+        if not node:
+            return 0
+        
+        if node.left and node.right:
+            return min(self.minDepth(node.left), self.minDepth(node.right))+1
+        else:
+            return max(self.minDepth(node.left), self.minDepth(node.right))+1
+        
+       
         
        
